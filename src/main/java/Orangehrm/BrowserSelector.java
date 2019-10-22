@@ -27,8 +27,7 @@ public class BrowserSelector extends Utils {
            System.out.println(USERNAME);
            System.out.println(ACCESS_KEY);
            //if sauce lab is true.....................................
-           //String browser = System.getProperty("browser");
-
+           
            if (SAUCE_LAB) {
                System.out.println("Running in saucelab......with Browser" + browser);
                if (browser.equalsIgnoreCase("Chrome")) {
